@@ -28,7 +28,6 @@ def add(a: int, b: int) -> int:
 def main() -> None:
     print(f"Running peterpi version {__version__}")
     print(f"Result is: 1+2 = {add(1, 2)}")
-    # noqa: B018, F821
 
 if __name__ == "__main__":
     main()

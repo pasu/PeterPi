@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier
+_commit: v0.3.5
+_src_path: git+https://gitlab.ewi.tudelft.nl/reit/python-package-template
+email: g.lu-1@tudelft.nl
+environment_manager: uv
+full_name: peter lu
+host: github.com
+license: MIT
+min_python_version: '3.10'
+org: pasu
+project_name: PeterPi
+project_short_description: A great package.
+python_name: peterpi
+url: https://github.com/pasu/PeterPi

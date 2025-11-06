@@ -31,6 +31,14 @@ def foo1(a):
         return 10
     return a + c
 
+def foo2(a):
+  b = 0
+  c = a + 1  
+  if a > 0:
+    if a > 10:
+      return 10
+  return a + c
+
 def main() -> None:
     print(f"Running peterpi version {__version__}")
     print(f"Result is: 1+2 = {add(1, 2)}")

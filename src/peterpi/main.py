@@ -26,12 +26,11 @@ def add(a: int, b: int) -> int:
     return a + b
 
 def foo1(a):
-  b = 0
-  c = a + 1  
-  if a > 0:
+    b = 0
+    c = a + 1  
     if a > 10:
-      return 10
-  return a + c
+        return 10
+    return a + c
 
 def main() -> None:
     print(f"Running peterpi version {__version__}")

@@ -26,7 +26,6 @@ def add(a: int, b: int) -> int:
     return a + b
 
 def foo1(a):
-    b = 0
     c = a + 1  
     if a > 10:
         return 10

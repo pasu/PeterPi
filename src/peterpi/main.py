@@ -25,6 +25,13 @@ def add(a: int, b: int) -> int:
         raise ValueError(msg)
     return a + b
 
+def foo1(a):
+  b = 0
+  c = a + 1  
+  if a > 0:
+    if a > 10:
+      return 10
+  return a + c
 
 def main() -> None:
     print(f"Running peterpi version {__version__}")

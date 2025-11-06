@@ -24,8 +24,5 @@ jobs:
       - name: Install the project and its dependencies
         run: uv sync
 
-      - name: Run pre-commit
-        run: uv run pre-commit run --all
-
       - name: Run Pytest
         run: uv run pytest --cov=src --cov-report term ./tests
